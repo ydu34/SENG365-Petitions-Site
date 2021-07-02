@@ -25,3 +25,4 @@ git commit -m 'deploy'
  git push -f git@github.com:ydu34/SENG-365-Petitions-Site.git main:gh-pages
 
 cd -
+cd - 
