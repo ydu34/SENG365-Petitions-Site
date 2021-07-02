@@ -2,6 +2,9 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/SENG365-Petitions-Site/'
+    : '/',
   entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
