@@ -1,5 +1,3 @@
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production'
-        ? '/SENG365-Petitions-Site/'
-        : '/'
+    publicPath: '/SENG365-Petitions-Site/'
 }
