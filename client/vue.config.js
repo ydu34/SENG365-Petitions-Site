@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/SENG365-Petitions-Site/'
+    baseUrl: '/SENG365-Petitions-Site/'
 }
